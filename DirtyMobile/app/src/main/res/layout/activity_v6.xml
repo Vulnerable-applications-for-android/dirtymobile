@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blackBackground"
+    tools:context=".V6">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/the_controls_in_this_group_ensure_that_the_app_uses_platform_apis_and_standard_components_in_a_secure_manner_additionally_the_controls_cover_communication_between_apps_ipc"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/input_validation" />
+
+    <Button
+        android:id="@+id/btnURI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/url_schemes" />
+
+    <Button
+        android:id="@+id/btnSensitive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/sensitive_functionality_exposure_through_ipc" />
+
+    <Button
+        android:id="@+id/btnJavascript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/javascript_execution_in_webviews" />
+
+    <Button
+        android:id="@+id/btnWebview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/webview_protocol_handlers" />
+
+    <Button
+        android:id="@+id/btnJavaObjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/java_objects_through_webviews" />
+
+</LinearLayout>

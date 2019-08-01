@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blackBackground"
+    tools:context=".V5">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/the_purpose_of_the_controls_listed_in_this_section_is_to_ensure_the_confidentiality_and_integrity_of_information_exchanged_between_the_mobile_app_and_remote_service_endpoints_at_the_very_least_a_mobile_app_must_set_up_a_secure_encrypted_channel_for_network_communication_using_the_tls_protocol_with_appropriate_settings_level_2_lists_additional_defense_in_depth_measure_such_as_ssl_pinning"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnUnencrypted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/unencrypted" />
+
+    <Button
+        android:id="@+id/btnTLS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="TLS SETTINGS" />
+
+    <Button
+        android:id="@+id/btnPinning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/ssl_pinning" />
+
+</LinearLayout>

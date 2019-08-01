@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blackBackground"
+    tools:context=".V3">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/cryptography_is_an_essential_ingredient_when_it_comes_to_protecting_data_stored_on_a_mobile_device_it_is_also_a_category_where_things_can_go_horribly_wrong_especially_when_standard_conventions_are_not_followed_the_purpose_of_the_controls_in_this_chapter_is_to_ensure_that_the_verified_application_uses_cryptography_according_to_industry_best_practices"
+        android:textColor="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/btnKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/key_management" />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="CUSTOM CRYPTO" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorOrange"
+        android:text="@string/random_number" />
+</LinearLayout>
