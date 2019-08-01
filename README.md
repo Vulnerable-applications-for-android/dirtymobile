@@ -9,3 +9,6 @@ It's made for learning and practicing Android security tests.
 4. Try to reverse the apk file to find out what's going on underneath (Use source files only as a last resort).
 5. Find insecure mechanism in vulnerable function and try to exploit it. You can also find flags (not always).
 6. Have fun.
+
+# Note
+Some Webview challenges require to setup a local website and configure hosts file to visit evilsite.local.
