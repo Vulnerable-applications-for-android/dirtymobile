@@ -11,4 +11,4 @@ It's made for learning and practicing Android security tests.
 6. Have fun.
 
 # Note
-Some Webview challenges require to setup a local website and configure hosts file to visit evilsite.local.
+Some Webview functions require you to setup a local website and configure hosts file to point evilsite.local to your website.
