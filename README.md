@@ -4,7 +4,7 @@ It's made for learning and practicing Android security tests.
 
 # Usage 
 1. Get yourself a copy of OWASP Mobile Application Security Verification Standard
-2. Install apk file
+2. Install the dirtymobile.apk file
 3. Fire one of the functions available
 4. Try to reverse the apk file to find out what's going on underneath (Use source files only as a last resort).
 5. Find insecure mechanism in vulnerable function and try to exploit it. You can also find flags (not always).
