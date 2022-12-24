@@ -12,3 +12,4 @@ It's made for learning and practicing Android security tests.
 
 # Note
 Some Webview functions require you to setup a local website and configure hosts file to point evilsite.local to your website.
+
